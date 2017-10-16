@@ -1,4 +1,4 @@
-package br.edu.devmedia.util;
+package br.codeforfloripa.util;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;

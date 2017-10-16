@@ -1,4 +1,4 @@
-package br.edu.devmedia.rest;
+package br.codeforfloripa.rest;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -9,7 +9,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
-import br.edu.devmedia.entity.Person;
+import br.codeforfloripa.entity.Person;
+import br.codeforfloripa.util.Constantes;
 
 
 @Path("/alo")
@@ -17,7 +18,6 @@ import br.edu.devmedia.entity.Person;
 		
 		@GET
 		@Path("/alo2")
-		@Produces(MediaType.TEXT_XML)
 		@Consumes(MediaType.TEXT_PLAIN)
 		public String aloMundoGet2(@QueryParam("msg") String msg) {
 			return "COMUNICAÇÃO COM O WS REALIZADA";

@@ -1,4 +1,4 @@
-package br.edu.devmedia.util;
+package br.codeforfloripa.util;
 
 import javax.ws.rs.core.MediaType;
 

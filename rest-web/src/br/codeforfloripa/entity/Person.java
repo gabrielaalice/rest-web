@@ -1,4 +1,4 @@
-package br.edu.devmedia.entity;
+package br.codeforfloripa.entity;
 
 import java.util.Date;
 

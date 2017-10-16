@@ -1,4 +1,4 @@
-package br.edu.devmedia.config;
+package br.codeforfloripa.config;
 
 import java.io.IOException;
 
