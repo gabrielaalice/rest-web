@@ -1,3 +1,5 @@
+Application Java to use as a WEBSERVICE to Login an android application with MySQL database 
+
 1) Import Eclipse Project
 - Import > Maven > Existing Maven Projects
 
